@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <style class="">
+        table, th, td {
+        border: 1px solid black;
+        }  
+         table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 70%;
+        }
+        </style>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        </head>
+  <title>Alerts</title>
+</head>
+<body>
+  
+    <table id="alerts-table">
+        <thead> 
+          <tr class="table">
+            <th>Nombre</th>
+            <th>Origen</th>
+            <th>Destino</th>
+            <th>Clase</th>
+            <th>Precio</th>
+            <th colspan="3">Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="alert">
+          
+        </tbody>
+      </table>
+      <div class="mt-8">
+        <button type="submit" id="boton">Back</button>
+      </div>
+      <script src="alert.js"></script>
+  </div>
+</body>
+</html>
